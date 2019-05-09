@@ -1,0 +1,88 @@
+.payment{
+	min-height: 100%;
+	display: flex;	
+	
+}
+.payment__logo{
+	position: absolute;
+	left: 32px;
+	top: 32px;
+}
+.payment__content-wrap{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.payment__content{
+	display: flex;
+	flex-direction: column;
+	width: 580px;
+}
+.payment__row{
+	display: flex;
+	justify-content: center;
+	margin-right: -30px;
+}
+.payment__button{
+	margin-right: 30px;
+	margin-bottom: 10px;
+}
+.payment__text{
+	width: 100%;
+	text-align: center;
+	line-height: 1.42em;
+	font-size: 24px;
+	margin-bottom: 40px;
+	margin-right: 30px;
+}
+
+@media screen and (max-width: 768px) {
+	.payment__content{
+		width: 530px;
+	}
+	.payment__row{
+		margin-right: 0;
+		flex-direction: column;
+	}
+	.payment__text, .payment__button{
+		margin-right: 0;
+	}
+	
+}
+
+
+@media screen and (max-width: 539px) {
+	.payment__content{
+		width: 345px;
+	}
+	.payment__logo{
+		position: absolute;
+		left: 50%;
+		top: 32px;
+		transform: translateX(-50%);
+		font-size: 16px;
+	}
+	.payment__content{
+		height: 100%;
+	}
+	.payment__row{
+		margin-top: 30%;
+	}
+	.payment__text{
+		margin-top: 35%;
+	}
+	.payment__button{
+		width: 260px;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.payment__content{
+		width: 100%;
+		padding: 0 15px;
+	}
+}

@@ -1,0 +1,66 @@
+.difficulty-lane{
+	margin: 8px 0;
+	width: 370px;
+	height: 5px;
+	display: flex;
+	background: linear-gradient(270deg, #E30303 -0.82%, #FFE600 49.18%, #65D753 99.73%);
+	border-radius: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.difficulty-lane__elem{
+	width: 14.3%;
+	height: 100%;
+	
+	opacity: 0;
+}
+.difficulty-lane__elem_active{
+	opacity: 1;
+	background: #323232;
+}
+.difficulty-lane__elem:first-child{
+	border-radius: 50px 0 0 50px;
+}
+.difficulty-lane__elem:last-child{
+	border-radius: 0 50px 50px 0;
+}
+.difficulty-lane__elem-after{
+	position: relative;
+	transform: scaleX(5);
+	height: 100%;
+	width: 1px;
+	background-color: #000;
+	opacity: 1;
+	z-index: 20;
+}
+.difficulty-lane__elem-after:last-child{
+	display: none;
+}
+.difficulty-lane_1 .difficulty-lane__elem:nth-child(n+2){
+	opacity: 1;
+	background: #323232;
+}
+.difficulty-lane_2 .difficulty-lane__elem:nth-child(n+4){
+	opacity: 1;
+	background: #323232;
+}
+.difficulty-lane_3 .difficulty-lane__elem:nth-child(n+6){
+	opacity: 1;
+	background: #323232;
+}
+.difficulty-lane_4 .difficulty-lane__elem:nth-child(n+8){
+	opacity: 1;
+	background: #323232;
+}
+.difficulty-lane_5 .difficulty-lane__elem:nth-child(n+10){
+	opacity: 1;
+	background: #323232;
+}
+.difficulty-lane_6 .difficulty-lane__elem:nth-child(n+12){
+	opacity: 1;
+	background: #323232;
+}
+.difficulty-lane_7 .difficulty-lane__elem:nth-child(n+14){
+	opacity: 1;
+	background: #323232;
+}

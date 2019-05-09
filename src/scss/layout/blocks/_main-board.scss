@@ -1,0 +1,227 @@
+.main-board{
+	margin: 33px auto;
+	background-color: #000;
+	color: #fff;
+	width: 450px;
+	border-radius: 25px 25px 30px 30px;
+	overflow: hidden;
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	font-family: $basis;
+	line-height: 1.2em;
+	font-size: 20px;
+}
+
+.main-board__content{
+	padding: 21px 30px 0px 30px;
+	margin-bottom: -12px;
+}
+.main-board__row{
+	margin-bottom: 12px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.main-board__row:last-child{
+	margin-bottom: 0 !important;
+}
+.main-board__header{
+	padding: 22px 30px 0px 30px;
+	margin-bottom: 0px;
+	height: 190px;
+	align-items: flex-end;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%),
+	url(../img/lighthouse.png);
+}
+.main-board__header:before{
+	content: "";
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	background-color: $bg-dark;	
+	top: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 50px;	
+}
+.main-board__header:after{
+	content: "";
+	position: absolute;
+	height: 20px;
+	width: 84px;
+	background-color: $bg-dark;
+	top: 30px;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 50px;	
+}
+.main-board__footer{
+	background-color: #fff;
+	color: #000;
+	bottom: -15px;
+	padding: 14px 30px 30px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+}
+.main-board__print{
+	position: absolute;
+	z-index: 100;
+	opacity: 1;
+	right: -20px;
+	top: -42px;
+}
+.main-board__left{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.main-board__price-text{
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000000;
+	opacity: 0.3;
+}
+.main-board__prices{
+	display: flex;
+	align-items: flex-end;
+	width: 100%;
+	margin-top: -12px;
+}
+.main-board__price-cross-out{
+	font-size: 20px;
+	font-weight: bold;
+	order: -1;
+	margin: 0px 10px 0 0;
+}
+.main-board__price-cross-out:after{
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 110%;
+	background: #1140FF;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.main-board__price{
+	font-weight: bold;
+	font-size: 40px;	
+	line-height: 1em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.main-board__price-cross-out + .main-board__price{
+	margin: 0;
+}
+.main-board__price-after{
+	font-size: 12px;
+	color: #1140FF;
+}
+
+.main-board__right{
+	border: 2px solid #B3B3B3;
+	border-radius: 50%;
+	width: 145px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #B3B3B3;;
+
+}
+.sticker-row{
+	position: absolute;
+	right: 33px;
+	top: -27px;
+	transform: rotate(5deg);
+}
+.sticker-header{
+	position: absolute;
+	right: 30px;
+	bottom: 21px;
+	transform: rotate(-15deg);
+}
+.sticker-classic{
+	height: 60px;
+	width: 98px;
+	background-image: url(../img/svg/sticker-classic.svg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'MenoeGrotesque';
+	line-height: 14px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: -0.3px;
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.5);
+	text-shadow: 0 0;
+}
+
+.main-board__elem{
+	width: 100%;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.main-board__subtitle{
+	line-height: 1.3em;
+	font-size: 12px;
+	text-transform: uppercase;
+	opacity: 0.5;
+	margin-bottom: 7px;
+}
+.main-board__title{
+	line-height: 1.44em;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+.main-board__title-after{
+	line-height: 1.3em;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.main-board__text{
+	line-height: 1.2em;
+	font-size: 12px;
+	font-weight: normal;
+
+}
+.main-board__header .main-board__elem{
+	.main-board__title{
+		margin-bottom: 3px;
+	}
+	.main-board__subtitle{
+		margin-bottom: 3px;
+	}
+}
+.main-board__elem_half{
+	width: 50%;
+}
+.members{
+	display: flex;
+}
+
+
+
+@media screen and (max-width: 539px) {
+	.form__button_footer{
+		margin-top: 127px;
+		margin-bottom: 0;
+	}
+	.main-board__left{
+		width: calc(100% - 80px);
+	}
+	.main-board__right{
+		width: 80px;
+		border: none;
+	}
+
+}

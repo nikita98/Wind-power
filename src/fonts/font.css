@@ -1,0 +1,45 @@
+
+@font-face {
+  font-family: 'BasisGrotesquePro';
+  src: url('BasisGrotesquePro-Light.eot');
+  src: url('BasisGrotesquePro-Light.eot?#iefix') format('embedded-opentype'),
+       url('BasisGrotesquePro-Light.ttf') format('truetype'),
+       url('BasisGrotesquePro-Light.woff') format('woff'),
+       url('BasisGrotesquePro-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BasisGrotesquePro';
+  src: url('BasisGrotesquePro-Bold.eot');
+  src: url('BasisGrotesquePro-Bold.eot?#iefix') format('embedded-opentype'),
+       url('BasisGrotesquePro-Bold.ttf') format('truetype'),
+       url('BasisGrotesquePro-Bold.woff') format('woff'),
+       url('BasisGrotesquePro-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BasisGrotesquePro';
+  src: url('BasisGrotesquePro-Regular.eot');
+  src: url('BasisGrotesquePro-Regular.eot?#iefix') format('embedded-opentype'),
+       url('BasisGrotesquePro-Regular.ttf') format('truetype'),
+       url('BasisGrotesquePro-Regular.woff') format('woff'),
+       url('BasisGrotesquePro-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MenoeGrotesque';
+  src: url('MenoeGrotesquePro-Regular.eot');
+  src: url('MenoeGrotesquePro-Regular.eot?#iefix') format('embedded-opentype'),
+       url('MenoeGrotesquePro-Regular.ttf') format('truetype'),
+       url('MenoeGrotesquePro-Regular.woff') format('woff'),
+       url('MenoeGrotesquePro-Regular.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+

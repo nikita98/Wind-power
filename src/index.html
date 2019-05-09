@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	@@include('meta/meta.html')
+</head>
+<body>
+	<div class="wrap">		
+		<div class="content">
+			<div class="page">
+				<div class="container double">
+					<div class="left">
+						<div class="main-content">
+							<div class="main-content__header">
+								<a href="#" class="logo">
+									СИЛА<span class="logo-middle">>>></span>ВЕТРА
+								</a>
+								<a href="#" class="page-name">
+									<span class="md">БРОНИРОВАНИЕ</span>
+									<span class="sm-only">завершение</span>
+								</a>
+							</div>
+							<div class="steps-bar">
+								<a href="date-pick.html" class="steps-bar__step">
+									<div class="steps-bar-before steps-bar-tick"></div>
+									Выбор дат
+								</a>
+								<a href="members.html" class="steps-bar__step">
+									<div class="steps-bar-before steps-bar-tick"></div>
+									Участники
+								</a>
+								<a href="confirmation.html" class="steps-bar__step">
+									<div class="steps-bar-before steps-bar-tick"></div>
+									Подтверждение
+								</a>
+								<a href="payment.html" class="steps-bar__step">
+									<div class="steps-bar-before steps-bar-tick"></div>
+									Оплата
+								</a>
+								<span class="steps-bar__step steps-bar__step_active">
+									<div class="steps-bar-before">5</div>
+									Завершение
+								</span>
+							</div>
+							<div class="main-content__row">
+								<p>Вы успешно прошли регистрацию в регату! Не забудьте подготовить все нужные вещи к 27 ноября!</p>
+								<p>А пока можете ознакомиться с полезными материалами:</p>
+								<ul class="main-content__downloand-list">
+									<li class="main-content__downloand-list-item"><a href="#">
+										Что взять с собой в регату?
+									</a></li>
+									<li class="main-content__downloand-list-item"><a href="#">
+										10 правил настоящего капитана
+									</a></li>
+									<li class="main-content__downloand-list-item"><a href="#">
+										Портфолио Стаса Шупикова
+									</a></li>
+								</ul>
+							</div>
+							<form action="" class="form main-content__form">
+								<div class="main-content__row">
+									<p>
+										Если у вас есть 5 минут свободного времени, пожалуйста заполните анкету!
+									</p>
+									<div class="form__radio-wrap">
+										<label class="form__radio-label">
+											<input class="form__radio" type="radio"name="friends" checked>
+											<div class="form__radio-text-before"></div>
+											<div class="form__radio-text">
+												Я еду один
+											</div>
+										</label>
+
+										<label class="form__radio-label">
+											<input class="form__radio" type="radio" name="friends">
+											<div class="form__radio-text-before"></div>
+											<div class="form__radio-text">
+												Я еду c друзьями
+											</div>
+										</label>
+									</div>
+
+									<div class="field form__input-wrap">
+										<label class="form__label" for="interest-area">
+											Сфера деятельности
+										</label>
+										<input class="form__input" type="text" name="interest-area" placeholder="Например дизайнер"/>
+									</div>
+									
+									<div class="field form__input-wrap">
+										<label class="form__label" for="interest-area">
+											Сфера интересов
+										</label>
+										<input class="form__input" type="text" name="interest-area" placeholder="Йога, Восточная медицина, Котики"/>
+									</div>
+
+									<div class="field form__input-wrap">
+										<label class="form__label" for="yachting-experience">
+											Мой яхтенный опыт
+										</label>
+										<input class="form__input" type="text" name="yachting-experience" placeholder="Умеренный или неоценимый"/>
+									</div>
+
+									<div class="field form__input-wrap">
+										<label class="form__label" for="hear-about-us">
+											Откуда вы про нас узнали?
+										</label>
+										<input class="form__input" type="text" name="hear-about-us" placeholder="Фейсбук или от друзей"/>
+									</div>
+
+									<div class="field form__input-wrap">
+										<label class="form__label" for="activity-field">
+											Чем бы ещё вы хотели с нами поделиться?
+										</label>
+										<textarea class="form__input" type="text" name="activity-field" placeholder="Расскажите о свой мечте или целях на год" rows="2"></textarea>
+									</div>
+									<div class="button-wrap">
+										<button type="submit" class="form__button button" value="Отправить">
+											Отправить
+										</button>
+										<span class="button_disabled-before">Необходимо заполнить все поля</span>
+									</div>
+								</div>
+							</form>
+						</div>	
+					</div>
+					<div class="right">
+						<div class="main-board">
+							<div class="main-board__row main-board__header">
+								<div class="sticker-header">
+									@@include('../img/svg/sale20.svg')
+								</div>
+								<div class="main-board__elem">
+									<div class="main-board__subtitle">
+										Направление
+									</div>
+									<div class="main-board__title">
+										ФАРЕРСКИЕ ОСТРОВА
+									</div>
+									<div class="main-board__title-after">
+										27 ноября — 5 декабря
+									</div>
+								</div>
+								
+							</div>
+							<div class="main-board__content">
+								<div class="main-board__row">
+									<div class="main-board__elem">
+										<div class="main-board__subtitle">
+											Сложность
+										</div>
+										<div class="main-board__title">
+											Умеренная
+										</div>
+										<div class="difficulty-lane difficulty-lane_1">
+											<div class="difficulty-lane__elem"></div>
+											<div class="difficulty-lane__elem-after"></div>
+											<div class="difficulty-lane__elem"></div>
+											<div class="difficulty-lane__elem-after"></div>
+											<div class="difficulty-lane__elem"></div>
+											<div class="difficulty-lane__elem-after"></div>
+											<div class="difficulty-lane__elem"></div>
+											<div class="difficulty-lane__elem-after"></div>
+											<div class="difficulty-lane__elem"></div>
+											<div class="difficulty-lane__elem-after"></div>
+											<div class="difficulty-lane__elem"></div>
+											<div class="difficulty-lane__elem-after"></div>
+											<div class="difficulty-lane__elem"></div>
+											<div class="difficulty-lane__elem-after"></div>
+										</div>	
+										<div class="main-board__text">
+											Подойдет для первого раза, но иногда может быть дождь или порядочный ветер. Возьмите крепкую ветровку и вам все будет ни по чем
+										</div>
+									</div>
+
+									<div class="main-board__elem main-board__elem_half">
+										<div class="main-board__subtitle">
+											ТЕМПЕРАТУРА
+										</div>
+										<div class="main-board__title">
+											Воздух — 16 <br> ВОДА — 7 
+										</div>
+									</div>
+									<div class="main-board__elem main-board__elem_half">
+										<div class="main-board__subtitle">
+											ВРЕМЯ НА ВОДЕ В ДЕНЬ
+										</div>
+										<div class="main-board__title">
+											5 часов
+										</div>
+									</div>
+								</div>
+
+								<div class="main-board__row">
+									<div class="sticker-row sticker-classic">
+										Скидка <br>30%
+									</div>
+									<div class="main-board__elem main-board__elem_half">
+										<div class="main-board__subtitle">
+											УЧАСТНИКИ
+										</div>
+										@@include('ui/members.html', {"count": "5"})
+									</div>
+								</div>
+							</div>
+							<div class="main-board__footer">
+								<div class="main-board__print">@@include('../img/svg/print.svg')</div>
+								<div class="main-board__left">
+									<div class="main-board__price-text">
+										цена
+									</div>
+									<div class="main-board__prices">
+										<div class="main-board__price-cross-out">
+											800€
+										</div>
+										<div class="main-board__price">
+											750€
+										</div>
+									</div>
+									<div class="main-board__price-after">
+										Скидка за покупку билета заранее
+									</div>
+								</div>
+								<div class="main-board__right">
+									56 734 ₽
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/libs.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

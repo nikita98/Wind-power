@@ -1,0 +1,5 @@
+(() => {
+	$(function() {
+		$('.js-styler').styler();
+	});
+})();
